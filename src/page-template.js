@@ -1,4 +1,4 @@
-const generatePage = (John, johnsiefert) => {
+const generatePage = (name, github) => {
   return `
   <!DOCTYPE html>
   <html lang="en">
@@ -11,8 +11,8 @@ const generatePage = (John, johnsiefert) => {
   </head>
   
   <body>
-    <h1>${John}</h1>
-    <h2><a href="https://github.com/${johnsiefert}">Github</a></h2>
+    <h1>${name}</h1>
+    <h2><a href="https://github.com/${github}">Github</a></h2>
   </body>
   </html>
   `;
